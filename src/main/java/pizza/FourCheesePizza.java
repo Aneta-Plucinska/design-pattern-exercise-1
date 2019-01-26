@@ -2,12 +2,12 @@ package pizza;
 
 import java.util.Arrays;
 
-public class CapriciosaPizza extends Pizza {
+public class FourCheesePizza extends Pizza {
 
-    private String name = "Capriciosa";
+    private String name = "FourCheese";
 
-    public CapriciosaPizza() {
-        super(29.00, Arrays.asList("Cheese", "Ham", "Champignons"));
+    public FourCheesePizza() {
+        super(32.00, Arrays.asList("Cheese 1", "Cheese 2", "Cheese 3", "Cheese 4"));
     }
 
     @Override
@@ -16,11 +16,11 @@ public class CapriciosaPizza extends Pizza {
     }
 
 
-//    public CapriciosaPizza() {
+//    public FourCheesePizza() {
 //        components = Arrays.asList("Cheese", "Ham", "Champignons");
 //        cost = 29.00;
 //    }
-
+//
 //    public double getCost() {
 //        return cost;
 //    }
@@ -43,7 +43,7 @@ public class CapriciosaPizza extends Pizza {
 //
 //    @Override
 //    public String toString() {
-//        return "CapriciosaPizza{" +
+//        return "FourCheesePizza{" +
 //                "cost=" + cost +
 //                ", components=" + components +
 //                '}';
